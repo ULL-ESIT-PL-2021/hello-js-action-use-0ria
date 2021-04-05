@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: ULL-ESIT-PL-1920/hello-js-action-0ria@1.0.0
+        uses: ULL-ESIT-PL-1920/hello-js-action-0ria@latest
         id: hello
         with:
           who-to-greet: 'Dani'
